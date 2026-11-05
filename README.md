@@ -6,6 +6,7 @@ Static site (no build step). Deploys on Netlify.
 - index.html – the whole website
 - netlify.toml – Netlify settings
 - images/founder.jpg – founder photo
+- favicon.svg, favicon.ico, apple-touch-icon.png – browser tab and home-screen icons
 
 ## Deploy via GitHub
 1. Create a new empty repo on GitHub (e.g. eyp-labs).
