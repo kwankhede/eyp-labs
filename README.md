@@ -12,4 +12,4 @@ Static site (no build step). Deploys on Netlify.
 2. Upload all files here (keep the images/ folder) and commit to main.
 3. Netlify: Add new site > Import an existing project > GitHub > pick the repo.
 4. Build command: leave empty. Publish directory: .
-5. Deploy. Contact form submissions appear under Forms in Netlify.
+5. Deploy. Visitors contact you through the email address on the page.

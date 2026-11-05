@@ -168,6 +168,10 @@
   .sw.solid{background:var(--text)}
   .sw.dash{background:repeating-linear-gradient(90deg,var(--text) 0 5px,transparent 5px 9px)}
 
+  .contact-center{text-align:center}
+  .contact-center .sub{margin:0 auto 30px}
+  .btn.big{display:inline-block;font-size:1.1rem;padding:16px 36px}
+
   /* REVEAL */
   .rv{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
   .rv.in{opacity:1;transform:none}
@@ -321,21 +325,11 @@
 </section>
 
 <section id="contact" class="on-wine">
-  <div class="wrap contact">
-    <div class="rv">
-      <div class="eyebrow">Contact</div>
-      <h2>Let's build something useful.</h2>
-      <p class="sub" style="margin-bottom:12px">Tell us about your project. We reply by email, usually within two working days.</p>
-      <a class="mail" href="mailto:kapilwankhede22@gmail.com">kapilwankhede22@gmail.com</a>
-    </div>
-    <form class="rv" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contact">
-      <p hidden><label>Leave empty: <input name="bot-field"></label></p>
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="email" name="email" placeholder="Email address" required>
-      <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
-      <button type="submit">Send message</button>
-    </form>
+  <div class="wrap contact-center rv">
+    <div class="eyebrow">Contact</div>
+    <h2>Let's build something useful.</h2>
+    <p class="sub">Tell us about your project. We reply by email, usually within two working days.</p>
+    <a class="btn primary big" href="mailto:kapilwankhede22@gmail.com">kapilwankhede22@gmail.com</a>
   </div>
 </section>
 
