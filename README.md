@@ -14,3 +14,10 @@ Static site (no build step). Deploys on Netlify.
 3. Netlify: Add new site > Import an existing project > GitHub > pick the repo.
 4. Build command: leave empty. Publish directory: .
 5. Deploy. Visitors contact you through the email address on the page.
+
+## Photos (optional)
+The three large image plates show illustrations by default. To use your own photos,
+add these files to the `images/` folder (any size, landscape works best) and they replace the illustrations automatically:
+- `hero-lead.jpg`  (wide 21:9 picture under the headline)
+- `nalanda.jpg`    (classroom / Nalanda, 4:3)
+- `build.jpg`      (you or the team at work, 4:3)
