@@ -18,12 +18,10 @@ Static site (no build step). Deploys on Netlify.
 ## Photos (optional)
 The three large image plates show illustrations by default. To use your own photos,
 add these files to the `images/` folder (any size, landscape works best) and they replace the illustrations automatically:
-- `hero-lead.jpg`  (wide 21:9 picture under the headline)
 - `nalanda.jpg`    (classroom / Nalanda, 4:3)
 - `build.jpg`      (you or the team at work, 4:3)
 
 ## Photo credits (Unsplash License, free to use)
-- hero-lead.jpg: Jakub Żerdzicki, https://unsplash.com/photos/trading-charts-displayed-on-multiple-screens-and-tablet-vKNRKjSNbTo
 - nalanda.jpg: Cht Gsml, https://unsplash.com/photos/desk-with-calculator-notebook-pencil-and-plant-QfQW294I8sQ
 - build.jpg: Compagnons, https://unsplash.com/photos/website-wireframe-sketch-on-paper-4UGmm3WRUoQ
 Hover a photo on the site to see it in full colour.
